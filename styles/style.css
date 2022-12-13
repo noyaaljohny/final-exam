@@ -1,0 +1,158 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+#main-nav{
+    overflow: hidden;
+  background-color: #333;
+  position: sticky; 
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  top: 0; 
+  width: 100%; 
+}
+
+#main-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-nav a {
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#main-nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+/* HEADER */
+
+
+/* MAIN CONTENT */
+#main-content img {
+    float: left;
+    margin: 5px;
+    max-width: 200px;
+    max-height: 200px;
+    top: 50px;
+}
+
+#main-content p {
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 0;
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* MAIN */
+#main-header{
+    background: url(/images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    background-size: 30%;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-header h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 200px;
+    color: #ec700a;
+}
+
+#main-header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    font-size: 40px;
+}
+
+#main-content ul li{
+    text-align: right;
+    list-style-position: inside;
+    float: right;
+}
+
+/* ASIDE */
+#main-content aside{
+    width: 20%;
+    float: right;
+    top: -150px;
+}
+
+aside h2 {
+    font-size: 23pt;
+    margin-bottom: 1em;
+    padding: 1em;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside ul li {
+    padding: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside ul li:nth-last-of-type(odd) {
+    background-color: rgb(148, 153, 157);
+}
+
+/* FOOTER */
+#social-nav img{
+    background: url(/images/facebook.png);
+    width:40px;
+    height:40px;
+    bottom: 0px;
+    position: relative;
+}
+
+#main-content figure {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1%;
+    width: 150px;
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#social-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#social-nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#social-nav img {
+    height: 50px;
+    width: 50px;
+}
